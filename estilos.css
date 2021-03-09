@@ -1,0 +1,177 @@
+:root {
+  --color-fondo: rgb(111, 89, 101);
+}
+
+body {
+  background-color: #6f5965;
+  background: radial-gradient(white, #6f5965, black);
+}
+
+body .up-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightgray;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+body h1 {
+  display: inline-block;
+  font-family: "Comic Sans MS", "comic sans";
+  font-size: 3rem;
+}
+
+body span {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.up img {
+  max-width: 50%;
+  border: 0.6rem solid lightgray;
+  margin: 2rem;
+}
+
+.up #sobre {
+  background: white;
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: Arial;
+}
+
+.up #sobre h2 {
+  color: white;
+  background-color: lightgray;
+  margin-top: 0%;
+  background: -webkit-gradient(linear, left top, left bottom, from(darkgray), color-stop(50%, gray), to(darkgray));
+  background: linear-gradient(to bottom, darkgray, gray 50%, darkgray);
+  padding: 1rem 0rem 1rem 1rem;
+  font-size: 2.5rem;
+}
+
+.up #sobre p {
+  padding: 1rem;
+}
+
+.down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.down-asides {
+  max-width: 30%;
+  overflow: hidden;
+  margin: 2rem;
+  margin-top: 1rem;
+  background-color: lightgray;
+}
+
+.down-asides h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(darkgray), color-stop(50%, gray), to(darkgray));
+  background: linear-gradient(to bottom, darkgray, gray 50%, darkgray);
+  padding: 1rem 0rem 1rem 1rem;
+  margin: 0;
+  font-size: 2rem;
+  font-family: Arial;
+  color: white;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.down-asides img {
+  max-width: 100%;
+  height: auto;
+}
+
+.down-asides p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+.down-asides-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.down-asides-img img {
+  width: 5rem;
+  height: auto;
+  margin: 1.2rem;
+}
+
+.down-asides-subt {
+  display: block;
+  color: white;
+  background-color: #407d61;
+  padding: 0.1rem;
+  border: 1px solid black;
+  border-radius: 7%;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: white;
+  margin: 0;
+  max-width: 100%;
+}
+
+footer h4 {
+  font-size: 2rem;
+  display: block;
+  font-family: Arial;
+  font-weight: lighter;
+  color: black;
+  margin-left: 40%;
+}
+
+footer a {
+  color: black;
+  font-family: Arial;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 2rem 1rem 1rem 1rem;
+  font-size: 2rem;
+}
+
+footer img {
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+footer .footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=estilos.css.map */
